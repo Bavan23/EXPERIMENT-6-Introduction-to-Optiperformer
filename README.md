@@ -69,23 +69,27 @@ The system includes:
 ## Tabulation
 
 **Transmission Analysis Across Fiber Lengths**
+<img width="960" height="1280" alt="WhatsApp Image 2026-04-25 at 11 42 26 AM" src="https://github.com/user-attachments/assets/43700aeb-e237-4939-a8e8-d9819eb69732" />
 
-| S.No | Fiber Length (km) | Optical Power (Watts) | Optical Power (dBm) | Max Q Factor | Min BER | Eye Height | Decision Instant (Max Q / Min BER) |
-|------|-------------------|------------------------|----------------------|--------------|---------|-------------|-------------------------------------|
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
 
 ---
 
 ## Graphs
 
-*(Insert plots of Optical Power, Q Factor, and BER vs. Fiber Length here)*
+<img width="722" height="732" alt="image" src="https://github.com/user-attachments/assets/2847679a-dd34-4076-99f9-0a79474117f0" />
+<img width="694" height="734" alt="image" src="https://github.com/user-attachments/assets/9a61c5a3-5eb3-4499-a328-670e631de03b" />
+<img width="701" height="731" alt="image" src="https://github.com/user-attachments/assets/31d2c8db-3dbe-4077-9e96-f8ec2066f795" />
+<img width="711" height="738" alt="image" src="https://github.com/user-attachments/assets/5b0d4769-d6fa-4d79-9992-05db1a538d4b" />
+<img width="728" height="737" alt="image" src="https://github.com/user-attachments/assets/288b8593-1471-4bb7-a7f2-3f70f79501e1" />
+<img width="728" height="737" alt="image" src="https://github.com/user-attachments/assets/513f2e9d-a5b3-455d-a187-28e16a71fbb9" />
 
 ---
 
 ## RESULT
+The simulation was completed successfully for different fiber lengths (50 km to 150 km).
 
-*(Summarize key findings from simulation and analysis)*
+As the fiber length increases, the received power decreases due to signal loss. The Q factor also decreases, showing poorer signal quality, while the BER increases, indicating more errors.
+
+The eye diagram becomes more closed as the fiber length increases, showing signal distortion.
+
+Thus, the system performance reduces as the fiber length increases.
